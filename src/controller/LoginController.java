@@ -4,7 +4,6 @@
  */
 package Controller;
 
-
 import Dao.UserDao;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -19,33 +18,34 @@ import view.Dashboard;
  * @author digitech
  */
 public class LoginController {
-    
+
     private final UserDao userDao = new UserDao();
     private final Login userView;
 
-    public LoginController( Login userView) {
+    public LoginController(Login userView) {
         this.userView = userView;
         userView.addLoginUserListener(new AddUserListener());
     }
-    
-    public void open(){
+
+    public void open() {
         this.userView.setVisible(true);
     }
-    public void close(){
+
+    public void close() {
         this.userView.dispose();
     }
-    
+
     class AddUserListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
-                String email = userView.getUsernameField() .getText();
+                String email = userView.getEmailField().getText();
                 String password = userView.getPasswordField().getText();
-                LoginRequest user = new LoginRequest( email, password);
+                LoginRequest user = new LoginRequest(email, password);
                 UserData loginUser = userDao.login(user);
-                if(loginUser == null){
+                if (loginUser == null) {
                     JOptionPane.showMessageDialog(userView, "Invalid Credentials");
-                }else{
+                } else {
                     // success
                     JOptionPane.showMessageDialog(userView, "Login Successful");
                     Dashboard dashboard = new Dashboard();

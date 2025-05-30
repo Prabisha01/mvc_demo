@@ -21,7 +21,7 @@ import model.LoginRequest;
 public class UserDao {
      MySqlConnection mysql = new MySqlConnection();
     
-    public void signup(UserData user) {
+    public void Createsignup(UserData user) {
         Connection conn = mysql.openConnection();
         
         String sql = "INSERT INTO users ( username, email, password) VALUES ( ?, ?, ?)";
@@ -53,6 +53,7 @@ public class UserDao {
         }
         return false;
     }
+    
       public UserData login(LoginRequest login){
         Connection conn = mysql.openConnection();
         String sql = "SELECT * FROM users where username = ? and password = ?";

@@ -5,8 +5,8 @@
 package self;
 
 
-import view.SignUp;
-import Controller.SignupController;
+import view.Dashboard;
+import controller.DashboardController;
 /**
  *
  * @author User
@@ -20,8 +20,8 @@ public class Self {
         // TODO code application logic here
         
      
-        SignUp signupForm = new SignUp();                 
-        SignupController controller = new SignupController(signupForm);  
+        Dashboard signupForm = new Dashboard();                 
+        DashboardController controller = new DashboardController(signupForm);  
         controller.open();  
  
     }

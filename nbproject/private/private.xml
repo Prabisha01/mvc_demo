@@ -14,6 +14,10 @@
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/view/Dashboard.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/model/LoginRequest.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/LoginController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/DashboardController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/ProductController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/model/Product.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/Dao/ProductDao.java</file>
         </group>
     </open-files>
 </project-private>
