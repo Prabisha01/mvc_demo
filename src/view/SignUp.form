@@ -97,18 +97,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="usernameText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="username"/>
-      </Properties>
       <Events>
         <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="usernameTextFocusGained"/>
         <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="usernameTextFocusLost"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="emailText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="email"/>
-      </Properties>
       <Events>
         <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="emailTextFocusGained"/>
         <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="emailTextFocusLost"/>
@@ -131,9 +125,6 @@
       </Events>
     </Component>
     <Component class="javax.swing.JPasswordField" name="passwordText">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="***"/>
-      </Properties>
       <Events>
         <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="passwordTextFocusGained"/>
         <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="passwordTextFocusLost"/>

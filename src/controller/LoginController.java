@@ -21,6 +21,7 @@ public class LoginController {
 
     private final UserDao userDao = new UserDao();
     private final Login userView;
+    
 
     public LoginController(Login userView) {
         this.userView = userView;
@@ -48,13 +49,15 @@ public class LoginController {
                 } else {
                     // success
                     JOptionPane.showMessageDialog(userView, "Login Successful");
-                    Dashboard dashboard = new Dashboard();
-                    dashboard.setVisible(true);
-                    close();
+                   Dashboard dashboard = new Dashboard();
+DashboardController dashboardController = new DashboardController(dashboard);
+dashboardController.open(); 
+
                 }
             } catch (Exception ex) {
                 System.out.println("Error adding user: " + ex.getMessage());
             }
         }
     }
+    
 }

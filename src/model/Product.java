@@ -1,6 +1,15 @@
 package model;
 
 public class Product {
+    private int productId;
+
+public int getProductId() {
+    return productId;
+}
+
+public void setProductId(int productId) {
+    this.productId = productId;
+}
     private String productName;
     public String getProductName() {
         return productName;
@@ -36,9 +45,19 @@ public class Product {
     }
 
 
-    public Product(String productName, String productImage , int productPrice){
-        this.productName = productName;
-        this.productImage = productImage;
-        this.productPrice = productPrice;
-    }
+    // Used for loading from database
+public Product(int id, String name, String image, int price) {
+    this.productId = id;
+    this.productName = name;
+    this.productImage = image;
+    this.productPrice = price;
+}
+
+// Used when creating a new product (no ID yet)
+public Product(String name, String image, int price) {
+    this.productName = name;
+    this.productImage = image;
+    this.productPrice = price;
+}
+
 }

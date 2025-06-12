@@ -54,7 +54,6 @@ public class Login extends javax.swing.JFrame {
 
         passwordLabel.setText("password");
 
-        usernameText.setText("username");
         usernameText.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 usernameTextFocusGained(evt);
@@ -64,7 +63,6 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        passwordText.setText("password");
         passwordText.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 passwordTextFocusGained(evt);

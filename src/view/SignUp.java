@@ -48,7 +48,6 @@ public class SignUp extends javax.swing.JFrame {
 
         passwordLabel.setText("password");
 
-        usernameText.setText("username");
         usernameText.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 usernameTextFocusGained(evt);
@@ -58,7 +57,6 @@ public class SignUp extends javax.swing.JFrame {
             }
         });
 
-        emailText.setText("email");
         emailText.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 emailTextFocusGained(evt);
@@ -82,7 +80,6 @@ public class SignUp extends javax.swing.JFrame {
             }
         });
 
-        passwordText.setText("***");
         passwordText.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
                 passwordTextFocusGained(evt);

@@ -9,15 +9,15 @@
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/self/Self.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/model/UserData.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/Dao/UserDao.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/SignupController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/Controller/SignupController.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/view/Login.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/view/Dashboard.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/model/LoginRequest.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/LoginController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/DashboardController.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/controller/ProductController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/Controller/LoginController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/Controller/DashboardController.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/model/Product.java</file>
             <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/Dao/ProductDao.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/Self/src/view/ProductCard.java</file>
         </group>
     </open-files>
 </project-private>
