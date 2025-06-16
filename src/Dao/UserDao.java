@@ -63,8 +63,9 @@ public class UserDao {
             ResultSet result = pstmt.executeQuery();
             if(result.next()){
                 UserData user  = new UserData(
-                    result.getString("email"),
+                    
                     result.getString("username"),
+                    result.getString("email"),
                     result.getString("password")
                 );
                 user.setId(result.getInt("id"));
@@ -78,6 +79,8 @@ public class UserDao {
         }
         return null;
     }
+
+    
 
 
 
